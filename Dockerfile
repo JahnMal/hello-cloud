@@ -5,6 +5,7 @@ COPY . .
 
 RUN go build -o hello-cloud .
 
+
 EXPOSE 8080
 
 CMD ["./hello-cloud"]
